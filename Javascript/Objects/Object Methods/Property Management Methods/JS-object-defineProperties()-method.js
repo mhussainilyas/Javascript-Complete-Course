@@ -77,20 +77,20 @@ let user = {};
 Object.defineProperties(user, {
   firstName: {
     get: function () {
-      return this._firstName;
+      return firstName;
     },
     set: function (value) {
-      this._firstName = value;
+      firstName = value;
     },
     enumerable: true,
     configurable: true,
   },
   lastName: {
     get: function () {
-      return this._lastName;
+      return lastName;
     },
     set: function (value) {
-      this._lastName = value;
+      lastName = value;
     },
     enumerable: true,
     configurable: true,

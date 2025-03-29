@@ -2,6 +2,7 @@
 //   keys() Method
 // ==================
 // The Object.keys() method returns an array with the keys of an object.
+// The Object.keys() method list only enumerable object properties {enumerable: true}
 // The Object.keys() method does not change the original object.
 
 // Create an Object

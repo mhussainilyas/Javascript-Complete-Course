@@ -2,6 +2,7 @@
 //   getOwnPropertyNames() Method
 // =================================
 // The Object.getOwnPropertyNames() method returns an array with the properties of an object.
+// Object.getOwnPropertyNames() will also list properties that is not enumerable.
 // The Object.getOwnPropertyNames() method does not change the original object.
 // SYNTAX: Object.getOwnPropertyNames(object)
 
